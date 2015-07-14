@@ -126,7 +126,7 @@ const Modal = React.createClass({
           domUtils.ownerDocument(this).body;
     container.className += container.className.length ? ' modal-open' : 'modal-open';
 
-    this.focusModalContent();
+    // this.focusModalContent();
 
     if (this.props.backdrop) {
       this.iosClickHack();
